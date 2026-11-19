@@ -9,7 +9,7 @@ A dbt project that transforms raw customer, order, order-item, and product data 
 - `models/staging/sources.yml` - declares the raw source tables in `FINANCE_DB.RAW`.
 - `tests/` - dbt data quality tests for order statuses and customer IDs.
 - `airflow/dags/dag.py` - daily Airflow workflow for dbt.
-- `data exemple/` - synthetic example CSV data for loading into Snowflake; dbt does not load these files automatically.
+- `data/` - synthetic example CSV data for loading into Snowflake; dbt does not load these files automatically.
 
 ## Requirements
 
